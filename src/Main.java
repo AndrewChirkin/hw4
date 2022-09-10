@@ -1,14 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int deposit = 15_000;
-        int depositPercent = 7;
-        for (int i = 1; i <= 12*9; i++) {
-            deposit = deposit + deposit * depositPercent / 100;
-            if (i % 6 == 0) {
-                System.out.println("Месяц " + i + " , сумма накоплений составила " + deposit + " рублей");
-            }
-        }
-
+      int fridayDate = 4;
+      for( ; fridayDate <=31; fridayDate = fridayDate + 7){
+          System.out.println("Сегодня пятница, " + fridayDate + "-е число. Необходимо подготовить отчет.");
+      }
     }
     }
