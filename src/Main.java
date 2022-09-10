@@ -1,9 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-      int fridayDate = 4;
-      for( ; fridayDate <=31; fridayDate = fridayDate + 7){
-          System.out.println("Сегодня пятница, " + fridayDate + "-е число. Необходимо подготовить отчет.");
+      int cometPeriod = 79;
+      int now = 2022;
+      int before = now -200;
+      int after = now + 100;
+      for(int i = 0; i <= after;i++){
+          if(i % 79 == 0 && i >=before){
+              System.out.println("Компета пролетала в " + i + " году");
+          }
       }
+
+
     }
     }
