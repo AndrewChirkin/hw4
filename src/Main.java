@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-int salary = 29_000;
-int total = 0;
+    int i = 1;
+    while(i<=10){
+        System.out.print(i + " ");
+        i++;
 
-int month = 1;
-while (total <= 2_459_000){
-    total = total + total/100;
-    total = total + salary;
-    System.out.println("Месяц " + month + " , сумма накоплений равна " + total +  "рублей");
-    month++;
 }
-
+    System.out.println();
+    int a = 10;
+    for(; a >= 1;a--){
+        System.out.print(a + " ");
+    }
             }
 
         }
